@@ -39,8 +39,8 @@ if __name__ == '__main__':
     
     print("""Sample data for prediction:
           [[0], # very low value, expect it to be identified as outlier
-          [train_data.mean(axis=0)],  # mean value, extect it to be identifies as non-outlier \n
-          [10e5]]  # very high value, expect to be identified as non-outlier \n
+          [train_data.mean(axis=0)],  # mean value, expect it to be identified as non-outlier \n
+          [10e5]]  # high value, expect to be identified as outlier \n
           """)
     print(prediction)
 
